@@ -13,3 +13,9 @@ test('substract one number from another', () => {
 
   expect(result).toEqual(-3);
 });
+
+test('failing test', () => {
+  const result = math.add(1, 1);
+
+  expect(result).toEqual(3);
+});
