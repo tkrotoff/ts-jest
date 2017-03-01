@@ -12,6 +12,7 @@
     "pretest": "npm run build",
     "test": "node --trace-warnings node_modules/.bin/jest --no-cache",
 
+    "precoverage": "npm run build",
     "coverage": "node --trace-warnings node_modules/.bin/jest --no-cache --coverage",
 
     "clean": "rm *.js"
